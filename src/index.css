@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 body{
     margin: 0px;
     padding: 0px;
@@ -39,4 +40,85 @@ input{
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url('./images/background.png');
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    transition: 0.6 ease-in-out;
+}
+
+nav .active{
+    box-shadow: 5px 10px 30px rgba(0, 247, 255, 0.157);
+    background-color: #ffffff;
+}
+
+nav ul {
+    display: flex;
+}
+
+.active{
+    background-color: #00b7ff;
+    color: #000000;
+    box-shadow: 5px 10px 30px rgba(189, 198, 64, 0.411);
+    transition: all ease 0.2s;
+}
+
+nav ul li a{
+    font-family: calibbri;
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000000;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li a:hover{
+    background-color: #00b7ff; /* #00b7ff our gold*/
+    color: #ffffff;
+    box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
+    transition: all ease 0.2s;
+}
+
+nav .menu-btn, .menu-icon{
+    display: none;
+}
+
+.name{
+    font-family: 'Montserrat';
+    width: 500px;
+    position: absolute;
+    left: 22%;
+    top: 50%;
+    transform: translate(-22%, -50%);
+}
+
+.name span{
+    color: #00b7ff;
+}
+
+.name .details{
+    color: #969696;
+}
+
+.name h1{
+    font-family: 'Montserrat';
+    font-size: 40px;
+    margin: 0;
+    letter-spacing: 2px;
+    color: #000000;
 }

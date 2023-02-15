@@ -57,7 +57,8 @@ nav{
 
 nav .active{
     box-shadow: 5px 10px 30px rgba(0, 247, 255, 0.157);
-    background-color: #ffffff;
+    background-color: #00b7ff;
+    color: #ffffff;
 }
 
 nav ul {
@@ -65,9 +66,9 @@ nav ul {
 }
 
 .active{
-    background-color: #00b7ff;
-    color: #000000;
-    box-shadow: 5px 10px 30px rgba(189, 198, 64, 0.411);
+    background-color: #ffffff;
+    color: #ffffff;
+    box-shadow: 5px 10px 30px rgba(18, 223, 250, 0.658);
     transition: all ease 0.2s;
 }
 
@@ -122,3 +123,24 @@ nav .menu-btn, .menu-icon{
     letter-spacing: 2px;
     color: #000000;
 }
+
+.header-btns{
+    display: flex;
+    margin-top: 40px;
+}
+
+.cv-btn{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00b7ff;
+    box-shadow: 5px 10px 30px rgba(2, 238, 255, 0.336);
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 17px ;
+    font-weight: 900;
+}
+
+.cv-btn
